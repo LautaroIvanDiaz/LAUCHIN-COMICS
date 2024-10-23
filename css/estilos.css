@@ -1,0 +1,6 @@
+@import "../scss/base/_sass.scss";
+@import "../scss/base/_generales.scss";
+@import "../scss/components/_header.scss";
+@import "../scss/components/_main.scss";
+@import "../scss/components/_footer.scss";
+@import "../scss/base/_queries.scss";
