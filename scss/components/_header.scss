@@ -1,0 +1,59 @@
+header {
+    nav {
+        div {
+            a {
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            button {
+                span {}
+            }
+
+            div {
+                ul {
+                    li {
+                        a {}
+                    }
+                }
+
+                form {
+                    input {}
+                }
+            }
+        }
+    }
+}
+
+///MAPA//
+.bg-menu {
+    background-color: map-get($fondo, color_fondo );
+}
+
+.btn-outline-success {
+    background-color: $color_secundario !important;
+    color: $color_terciario !important;
+    border: $color_terciario !important;
+}
+
+.btn-outline-success:hover {
+    background-color: $color_terciario !important;
+    color: $color_secundario !important;
+    border: $color_secundario !important;
+}
+
+.nav-item {
+    a {
+        color: $color_terciario !important;
+
+        &hover {
+            background-color: $color_secundario !important;
+        }
+    }
+}
+
+.navbar-toggler-icon {
+    color: $color_terciario !important;
+}

@@ -1,0 +1,27 @@
+//COLORES PRINCIPALES DEL PROYECTO//>
+
+$color_principal: black;
+$color_secundario: rgb(255, 49, 49);
+$color_terciario: white;
+$color_transparente: rgba(0, 0, 0, 0.315);
+
+
+
+//MAPA//
+$fondo: (
+    color_fondo: black,
+    );
+    
+    
+//EXTEND//
+%titulo_main {
+    color: rgb(255, 49, 49);
+    text-align: center;
+    font-size: 50px;
+}
+
+//MIXIN//
+@mixin flex($display, $justify){
+    display: $display;
+    justify-content: $justify;
+}
