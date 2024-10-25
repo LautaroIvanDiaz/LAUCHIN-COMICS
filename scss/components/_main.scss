@@ -33,10 +33,20 @@ main {
 
 .carousel-control-next-icon {
     background-color: $color_transparente;
+    transition: 0.3s;
+}
+
+.carousel-control-next-icon:hover{
+    transform: scale(1.5);
 }
 
 .carousel-control-prev-icon {
     background-color: $color_transparente;
+    transition: 0.3s;
+}
+
+.carousel-control-prev-icon:hover{
+    transform: scale(1.5);
 }
 
 //HERO SECTION//

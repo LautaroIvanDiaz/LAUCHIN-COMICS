@@ -32,10 +32,12 @@ a {
 
 .nav-item a{
     color: white !important;
+    transition: 0.3s;
 }
 
 .nav-item a:hover {
     background-color: rgb(255, 49, 49) !important;
+    transform: scale(1.1);
 }
 
 .navbar-toggler-icon{
@@ -58,11 +60,22 @@ header nav div a img {
 
 .carousel-control-next-icon{
     background-color: rgba(0, 0, 0, 0.315);
+    transition: 0.3s;
+}
+
+.carousel-control-next-icon:hover{
+    transform: scale(1.5);
 }
 
 .carousel-control-prev-icon{
     background-color: rgba(0, 0, 0, 0.315);
+    transition: 0.3s;
 }
+
+.carousel-control-prev-icon:hover{
+    transform: scale(1.5);
+}
+
 /*-----MAIN--------*/
 
 .popular h2 {
@@ -79,13 +92,6 @@ header nav div a img {
 .popular div {
     text-align: center;
     margin: 10px;
-
-}
-
-.popular .imagenes_historietas div {
-    -webkit-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
-    -moz-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
-    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
 }
 
 .popular .imagenes_historietas {
@@ -97,6 +103,21 @@ header nav div a img {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+
+/*PARA DESPUES*/
+
+/*.popular .imagenes_historietas div{
+    transition: 1s;
+}
+
+.popular .imagenes_historietas div:hover{
+    transform: scale(1.3);
+    -webkit-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
+    background-color: rgba(0, 0, 0, 0.315);
+
+}*/
 
 main section div h3 {
     font-size: 15px;

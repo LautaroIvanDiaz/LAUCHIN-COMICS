@@ -21,9 +21,11 @@ header nav div a img {
   border: #ff3131 !important; }
 
 .nav-item a {
-  color: white !important; }
+  color: white !important;
+  transition: 0.3s; }
   .nav-item ahover {
-    background-color: #ff3131 !important; }
+    background-color: #ff3131 !important;
+    transform: scale(1.1); }
 
 .navbar-toggler-icon {
   color: white !important; }
@@ -32,10 +34,18 @@ header nav div a img {
   background-color: rgba(0, 0, 0, 0.315); }
 
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.315); }
+  background-color: rgba(0, 0, 0, 0.315);
+  transition: 0.3s; }
+
+.carousel-control-next-icon:hover {
+  transform: scale(1.5); }
 
 .carousel-control-prev-icon {
-  background-color: rgba(0, 0, 0, 0.315); }
+  background-color: rgba(0, 0, 0, 0.315);
+  transition: 0.3s; }
+
+.carousel-control-prev-icon:hover {
+  transform: scale(1.5); }
 
 .popular .imagenes_historietas {
   display: grid;

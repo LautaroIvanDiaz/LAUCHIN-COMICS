@@ -47,9 +47,10 @@ header {
 .nav-item {
     a {
         color: $color_terciario !important;
-
+        transition: 0.3s;
         &hover {
             background-color: $color_secundario !important;
+            transform: scale(1.1);
         }
     }
 }
