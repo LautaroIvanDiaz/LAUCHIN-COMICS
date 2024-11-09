@@ -33,10 +33,11 @@ a {
 .nav-item a{
     color: white !important;
     transition: 0.3s;
+    font-size: 20px;
 }
 
 .nav-item a:hover {
-    background-color: rgb(255, 49, 49) !important;
+    color: rgb(255, 49, 49)  !important;
     transform: scale(1.1);
 }
 
@@ -45,12 +46,10 @@ a {
 }
 
 header nav div a img {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
 }
 
-
-/*------MAIN----------*/
 
 /*----HERO SECTION----*/
 
@@ -75,6 +74,15 @@ header nav div a img {
 .carousel-control-prev-icon:hover{
     transform: scale(1.5);
 }
+
+.carousel-indicators button{
+    transition: 1.1s;
+}
+
+.carousel-indicators button:hover{
+    transform: scale(1.1);
+}
+
 
 /*-----MAIN--------*/
 
@@ -104,21 +112,6 @@ header nav div a img {
     gap: 10px;
 }
 
-/*PARA DESPUES*/
-
-/*.popular .imagenes_historietas div{
-    transition: 1s;
-}
-
-.popular .imagenes_historietas div:hover{
-    transform: scale(1.3);
-    -webkit-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
-    -moz-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
-    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.29);
-    background-color: rgba(0, 0, 0, 0.315);
-
-}*/
-
 main section div h3 {
     font-size: 15px;
 }
@@ -132,6 +125,7 @@ footer div a img {
 .imagenes_redes {
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 footer h2 {

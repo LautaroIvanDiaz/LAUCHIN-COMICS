@@ -1,60 +1,50 @@
 header {
-    nav {
+    .bg-menu{
+        .bg-menu {
+            background-color: $color_principal;
+        }
         div {
             a {
                 img {
-                    width: 200px;
-                    height: 200px;
+                    width: 120px;
+                    height: 120px;
                 }
             }
 
             button {
-                span {}
+                .navbar-toggler-icon{
+                    color: $color_terciario !important;
+                }
             }
 
             div {
                 ul {
-                    li {
-                        a {}
+                    .nav-item a{
+                        color: $color_terciario !important;
+                        transition: 0.3s;
+                        font-size: 20px;
+                        &:hover{
+                            color: $color_secundario  !important;
+                            transform: scale(1.1);
+                        }
                     }
+                    
                 }
 
                 form {
-                    input {}
+                    .btn-outline-success {
+                        background-color: $color_secundario !important;
+                        color: white !important;
+                        border: white !important;
+                            &:hover{
+                                background-color: white !important;
+                                color: $color_secundario !important;
+                                border: $color_secundario !important;
+                            }
+                        }
+                    }
+                    
                 }
             }
         }
     }
-}
-
-///MAPA//
-.bg-menu {
-    background-color: map-get($fondo, color_fondo );
-}
-
-.btn-outline-success {
-    background-color: $color_secundario !important;
-    color: $color_terciario !important;
-    border: $color_terciario !important;
-}
-
-.btn-outline-success:hover {
-    background-color: $color_terciario !important;
-    color: $color_secundario !important;
-    border: $color_secundario !important;
-}
-
-.nav-item {
-    a {
-        color: $color_terciario !important;
-        transition: 0.3s;
-        &hover {
-            background-color: $color_secundario !important;
-            transform: scale(1.1);
-        }
-    }
-}
-
-.navbar-toggler-icon {
-    color: $color_terciario !important;
-}

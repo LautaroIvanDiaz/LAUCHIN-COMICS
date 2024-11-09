@@ -1,13 +1,15 @@
 footer {
     .imagenes_redes {
-        //MIXIN//
-        @include flex(flex, center)
+        display: flex;
+        justify-content: center;
+        margin: 10px;
 
         div {
             a {
                 img {
                     width: 50px;
                 }
+
             }
         }
     }

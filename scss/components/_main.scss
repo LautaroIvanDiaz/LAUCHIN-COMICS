@@ -4,41 +4,30 @@ main {
         //HERO SECTION//
         div {
             div {
-                button {}
+
             }
 
             div {
                 div {
-                    img {}
-
-                    div {
-                        h5 {}
-
-                        p {}
+                    .d-md-block{
+                        background-color: $color_transparente;
+                    }
                     }
                 }
             }
 
-            button {
-                span {}
+            .carousel-control-next-icon {
+                background-color: $color_transparente;
+                transition: 0.3s;
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
         }
     }
-}
+
 
 //HERO SECTION//
-.d-md-block {
-    background-color: $color_transparente;
-}
-
-.carousel-control-next-icon {
-    background-color: $color_transparente;
-    transition: 0.3s;
-}
-
-.carousel-control-next-icon:hover{
-    transform: scale(1.5);
-}
 
 .carousel-control-prev-icon {
     background-color: $color_transparente;
